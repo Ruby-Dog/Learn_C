@@ -1,12 +1,12 @@
 /*ch1 outline.c */
 //-----head---
-#include <stdio.h>  //C head §â¼Ò²Õ¥s¶i¨Ó 
+#include <stdio.h>  //C head æŠŠæ¨¡çµ„å«é€²ä¾† 
 					// std -> standrd  
 					// io  -> input output
 										
 #include <stdlib.h>	// lib -> libery 				
 
-#define MAX 10 //¶W¯ÅÅÜ¼Æ ©Ò¦³³£¥i¥H¥Î 
+#define MAX 10 //è¶…ç´šè®Šæ•¸ æ‰€æœ‰éƒ½å¯ä»¥ç”¨ 
 //-----head---
 
 
@@ -27,7 +27,7 @@ int main(void){
 	system("PAUSE");
 	return 0;
 }
-int square(int value){
+int square(int value){       //å‡½æ•¸
 	return value*value;
 }
 
