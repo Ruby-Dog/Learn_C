@@ -1,4 +1,4 @@
-
+/*ch1 outline.c */
 //-----head---
 #include <stdio.h>  //C head 把模組叫進來 
 					// std -> standrd  
@@ -18,11 +18,12 @@ int main(void){
 	int square_total = 0;
 	total = 0;
 	for(i=1;i<MAX;i++){
-		total +=i ; 
+		total +=i ;
+		printf(" i = %d , total = %d \n",i,total);
 	}
 	printf("The sum of 1+2+3+...+10 is %d.\n",total);
 	square_total = square(total);
-	printf("The total*total = %d \n",square_total); 
+	printf("Square of %d is %d .\n",total,square_total); 
 	system("PAUSE");
 	return 0;
 }
