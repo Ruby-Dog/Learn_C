@@ -10,4 +10,23 @@ Teacher : c語言變數名稱長度有限制!
 現在的編譯器的上限通常都在1024以上，幾乎等於無上限， 因此如果讓變數的名字長一點而可以增加易讀性的話，就請這麼做吧！
 
 ```
+```
+编译C语言程序时报错：“'for' loop initial declarations are only allowed in C99 mode”
+https://blog.csdn.net/qq_37118873/article/details/78188323
 
+解决方法：有两种，个人推荐第二种
+
+1）将for循环里的int 定义到for循环外
+
+2）
+
+Tools ->
+
+Compiler Options -> 
+
+General -> 
+
+将 Add the following commands when calling the compiler;打√ ->
+
+在下面填写上        -std=c99            -> OK 
+```
