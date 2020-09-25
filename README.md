@@ -30,15 +30,17 @@ General ->
 
 在下面填写上        -std=c99            -> OK 
 ```
-
-
 ```
 1Byte = 8 bits 
 
 1 bit 有2個值 ( 0 和 1 )
 1 Byte 有 256 個值 ( 2^8 = 256 ) 
 
-1Byte = 8 Bits
+
+1 bit = ( 0 , 1 )
+1 Byte = 8 Bits
+1 word = 2bytes ( or 4 bytes) 
+
 
 1 Kilobyte (KB)      = 1024 Bytes   = 2^10 B ~ 10^3     （千）
 1 Megabyte (MB)      = 1024 KB      = 2^20 B ~ 10^6     （百萬）
