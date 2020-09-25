@@ -38,5 +38,15 @@ General ->
 1 bit 有2個值 ( 0 和 1 )
 1 Byte 有 256 個值 ( 2^8 = 256 ) 
 
+1Byte = 8 Bits
+
+1 Kilobyte (KB)      = 1024 Bytes   = 2^10 B ~ 10^3     （千）
+1 Megabyte (MB)      = 1024 KB      = 2^20 B ~ 10^6     （百萬）
+1 Gigabyte (GB)      = 1024 MB      = 2^30 B ~ 10^9     （十億）
+1 Terabyte (TB)      = 1024 GB      = 2^40 B ~ 10^12    （兆）
+1 Petabyte (PB)      = 1024 TB      = 2^50 B ~ 10^15    （千兆）
+1 Exabyte (EB)       = 1024 PB      = 2^60 B ~ 10^18    （百京）
+1 Zettabyte (ZB)     = 1024 EB      = 2^70 B ~ 10^21    （十垓ㄍㄞ）
+1 Yottabyte (YB)     = 1024 ZB      = 2^80 B ~ 10^24    （秭ㄗˇ）
 
 ```
