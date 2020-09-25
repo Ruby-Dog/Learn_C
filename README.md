@@ -1,5 +1,5 @@
 # Learn_C
-#My record of learing C leaguage since 20200918  
+#My recording of learing C leaguage since 20200918  
 
 ```
 Teacher : c語言變數名稱長度有限制!
