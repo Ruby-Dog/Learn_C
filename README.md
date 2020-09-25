@@ -51,4 +51,6 @@ General ->
 1 Zettabyte (ZB)     = 1024 EB      = 2^70 B ~ 10^21    （十垓ㄍㄞ）
 1 Yottabyte (YB)     = 1024 ZB      = 2^80 B ~ 10^24    （秭ㄗˇ）
 
+#背 K M G - T P E  - Z Y   (國民黨GG - 台北 - Z歪)
+
 ```
