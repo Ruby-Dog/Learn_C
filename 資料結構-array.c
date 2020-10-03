@@ -121,7 +121,11 @@ int main()
 
    /*矩陣相乘*/
    // https://www.youtube.com/watch?v=VGSfnZQQf5w
+   // http://mail.tlsh.tp.edu.tw/~h397/teach/teach_2-2.htm
       
+ 
+ 
+ 
 //-------------------------------------------------------         
     //return 0 : OK
     //return 1 :faluire
