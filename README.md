@@ -10,10 +10,10 @@ Teacher : c語言變數名稱長度有限制!
 現在的編譯器的上限通常都在1024以上，幾乎等於無上限， 因此如果讓變數的名字長一點而可以增加易讀性的話，就請這麼做吧！
 
 ```
-```
+
 编译C语言程序时报错：“'for' loop initial declarations are only allowed in C99 mode”
 https://blog.csdn.net/qq_37118873/article/details/78188323
-
+```
 解决方法：有两种，个人推荐第二种
 
 1）将for循环里的int 定义到for循环外
@@ -59,7 +59,7 @@ General ->
 16進制  以 0x 或 0X 開頭   ---->  0x45AD  0X1F7B
 ```
 
-指標
-```
+指標教學:
 https://kopu.chat/2017/05/15/c%E8%AA%9E%E8%A8%80-%E8%B6%85%E5%A5%BD%E6%87%82%E7%9A%84%E6%8C%87%E6%A8%99%EF%BC%8C%E5%88%9D%E5%AD%B8%E8%80%85%E8%AB%8B%E9%80%B2%EF%BD%9E/
-```
+
+
