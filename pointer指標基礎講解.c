@@ -9,7 +9,8 @@ int main()
     
     //「&」為「位址運算子」 用來取得變數的位址 
     
-    printf("變數a的位址 &a = %p\n",&a); 
+    printf("變數a的位址 &a = %p\n",&a);   
+    //「%p」This is used to print the pointer type data.
     
     //「 *」為「依址取值運算子」 用來取得指標所指向的變數內容 */
      
@@ -67,5 +68,51 @@ int main()
       
     */                     
     
+    printf("--------------------------------------------------\n");
+    int d=3;
+    int* pointer3 = &d;
+    
+    printf("變數d值 = %d \n",d);
+    printf("變數d的位址 = %p \n",&d);
+    printf("指標變數pointer3的值 = %p \n",pointer3);
+    
+    printf("\n");
+    
+    *pointer3=9999;
+    printf("指標變數pointer3 = %d \n",*pointer3);
+    printf("變數d的值 = %d \n",d);
+    printf("指標變數pointer3位址 = %p \n",&pointer3);
+    /*存放 pointer 這個變數的地址，和變數 b 的地址不一樣，
+    所以利用「&pointer」後，可發現地址「0x7fff551b49c0」和變數 b 的地址果然不一樣。*/
+    
+    printf("--------------------------------------------------\n");
+    
+    
+    //交換值小練習
+    
+    int x,y,temp;
+    int *p1,*p2;
+    printf("請輸入x的值:");
+    scanf("%d",&x);   
+    /*scanf("格式控制字符串", 地址表列);
+    把輸入的東西掃描後,存入該地址裡*/
+    
+    printf("請輸入y的值:");
+    scanf("%d",&y);
+    
+    printf("交換前,x = %d  y = %d \n",x,y);
+    p1 = &x;
+    p2 = &y;
+    
+    if(*p1<*p2){
+        temp = *p1;
+        *p1=*p2;
+        *p2=temp;
+    }
+    
+    printf("交換後,x = %d  y = %d \n",x,y);
+    
+    printf("--------------------------------------------------\n");
     return 0;
+    
 }
