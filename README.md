@@ -81,7 +81,7 @@ pointer
 >https://www.itread01.com/content/1546612572.html
 
 交換數值:  
->https://www.itread01.com/content/1544938218.html
+>https://www.itread01.com/content/1544938218.html  
 >https://www.itread01.com/content/1546612572.html 
 
 scanf  
