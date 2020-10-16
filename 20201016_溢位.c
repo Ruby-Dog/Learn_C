@@ -22,13 +22,7 @@ int main()
 	}
     
     return 0;
-    
-    
-    
-    
-    
-    
-    
+        
     /*h：表示bai短整数du(short int)。
     %d：接受整数值并将它表示为有zhi符号的十进d制整数
     %hd:实际上就是输出一个内短整数。
