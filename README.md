@@ -73,5 +73,8 @@ https://kopu.chat/2017/05/15/c%E8%AA%9E%E8%A8%80-%E8%B6%85%E5%A5%BD%E6%87%82%E7%
 pointer 中存的地址是變數 b 的值，因此我們又把 pointer 稱為「變數 b 的指標變數」。
 --------------------------------------------
 ```
-C語言讓電腦跑亂數 : http://it-easy.tw/crand/
+C語言讓電腦跑亂數 : http://it-easy.tw/crand/  
+
+pointer
+https://www.itread01.com/content/1546612572.html
 
