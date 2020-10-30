@@ -19,15 +19,15 @@ int main()
     r1=!a;
     r2=b^a; 
     r3=b&a;
-	r4=b|a>>1;
-	r5=b<<199;
-	r6=a|b&a>>a^a^a;
+    r4=b|a>>1;
+    r5=b<<199;
+    r6=a|b&a>>a^a^a;
     printf("!a=%d\n",r1);
     printf("b^a=%d\n",r2);
     printf("b&a=%d\n",r3);
-	printf("b|a>>1=%d\n",r4);
-	printf("b<<2=%d\n",r5);
-	printf("!a|b&a>>a^a^a=%d,\n",r6);
+    printf("b|a>>1=%d\n",r4);
+    printf("b<<2=%d\n",r5);
+    printf("!a|b&a>>a^a^a=%d,\n",r6);
 	
     return 0;
 }
