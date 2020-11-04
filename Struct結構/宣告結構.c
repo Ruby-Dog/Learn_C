@@ -12,7 +12,7 @@ typedef struct person_t person_t;
 struct person_t{
     char* name;
     unsigned age;
-}
+};
 
 
 /*如果想節省命名空間可進一步使用以下方式來宣告結構：*/
@@ -25,7 +25,7 @@ typedef struct {
 
 int main()
 {
-    printf("Hello World");
+    
     
     struct person_t p1 = {"Ruby",5};
     /*但這種初始化結構的方式寫死該結構的屬性的位置，
@@ -39,9 +39,9 @@ int main()
     日後要更動屬性時，可將要修改的部分降低。*/
 
     person_t p3={
-        .mame = "RUBY",
+        .name = "RUBY",
         .age = 5
-    }
+    };
     return 0;
 }
 
