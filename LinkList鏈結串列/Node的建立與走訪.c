@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -37,8 +36,6 @@ int main()
         printf("next=%p \n",current->next);
         current=current->next;
     }
-    
-    
-    
+ 
     return 0;
 }
