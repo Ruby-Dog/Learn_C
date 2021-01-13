@@ -1,11 +1,12 @@
--> https://sites.google.com/site/9braised/fan-si/c1
+-> https://sites.google.com/site/9braised/fan-si/c1  
+  
 因遇到scanf("%[^\n]",s);這行看不懂的程式  
 所以上網Google了一下 結果發現他有很大的優點  
 能解決scanf 讀取字串時碰到空白字元會提早結束的問題  
 以下為scanf特殊寫法的介紹  
-
+  
 scanf中不常見但有用的轉換字元 [...] 和 [^...]  
-
+  
 範例程式01  
 ```
 #include <stdio.h>
